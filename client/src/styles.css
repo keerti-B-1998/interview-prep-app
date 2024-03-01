@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: flex;
+    height: 100vh;
+    background-image: url('blu.jpg');
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto; 
+}
+
+.left-menu {
+    background: rgb(22, 22, 22);
+    width: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: width .4s ease; 
+    position: fixed;
+    height: 100%;
+}
+
+.main-container:hover .left-menu {
+    width: 13rem; 
+}
+
+.logo {
+    width: 80px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 0 0;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.logo span {
+    font-weight: bold;
+    padding: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.logo a {
+    position: relative;
+    left: 180px;
+    color: #f7f3f5;
+    font-size: 18px;
+    display: table;
+    text-align: left;
+    width: 300px;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.dashboard {
+    flex: 1;
+    overflow: auto; 
+    padding: 20px; 
+    color: white; 
+}
+
+.left-menu ul {
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+ul li {
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    margin-bottom: 1rem;
+    transition: all .3s linear;
+    overflow: hidden; 
+}
+
+
+ul li a {
+    padding: 0.5rem;
+    color: transparent; 
+    text-decoration: none;
+    display: flex;
+    align-items: center; 
+}
+
+ul li a i {
+    text-decoration: none;
+    color: transparent; 
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: all .3s linear;
+    margin-right: 1.2rem;
+}
+
+
+.left-menu:hover ul li a,
+.left-menu:hover ul li a i {
+    color: #faf3f3; 
+}
