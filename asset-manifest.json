@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/interview-prep-app/static/css/main.6230ecf0.css",
+    "main.js": "/interview-prep-app/static/js/main.e03a5fb7.js",
+    "static/js/453.419a5d54.chunk.js": "/interview-prep-app/static/js/453.419a5d54.chunk.js",
+    "static/media/blu.jpg": "/interview-prep-app/static/media/blu.024e2de0fbea7cb29348.jpg",
+    "index.html": "/interview-prep-app/index.html",
+    "main.6230ecf0.css.map": "/interview-prep-app/static/css/main.6230ecf0.css.map",
+    "main.e03a5fb7.js.map": "/interview-prep-app/static/js/main.e03a5fb7.js.map",
+    "453.419a5d54.chunk.js.map": "/interview-prep-app/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6230ecf0.css",
+    "static/js/main.e03a5fb7.js"
+  ]
+}
